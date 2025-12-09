@@ -3478,28 +3478,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:AFC07-S24FCA-00"
+		(symbol "inkbadge:EINK-2.9inch"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "FPC"
-				(at 0 39.37 0)
+			(property "Reference" "U"
+				(at 8.128 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AFC07-S24FCA-00"
-				(at 0 -39.37 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:FPC-SMD_AFC07-S24FCA-00"
-				(at 0 -41.91 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3507,8 +3507,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JUSHUO-AFC07-S24FCA-00_C262567.html"
-				(at 0 -44.45 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3525,67 +3525,22 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C262567"
-				(at 0 -46.99 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AFC07-S24FCA-00_0_1"
+			(symbol "EINK-2.9inch_1_1"
 				(rectangle
-					(start -2.54 36.83)
-					(end 7.62 -36.83)
+					(start -8.89 33.02)
+					(end 6.35 -27.94)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 34.29 0)
-					(length 5.08)
-					(name "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 29.21 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 26.67 0)
-					(length 5.08)
-					(name "2"
+				(pin input line
+					(at -11.43 30.48 0)
+					(length 2.54)
+					(name "GDR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3600,10 +3555,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 24.13 0)
-					(length 5.08)
-					(name "3"
+				(pin input line
+					(at -11.43 27.94 0)
+					(length 2.54)
+					(name "RESE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3618,10 +3573,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 21.59 0)
-					(length 5.08)
-					(name "4"
+				(pin input line
+					(at -11.43 25.4 0)
+					(length 2.54)
+					(name "VGL/NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3636,10 +3591,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 19.05 0)
-					(length 5.08)
-					(name "5"
+				(pin input line
+					(at -11.43 22.86 0)
+					(length 2.54)
+					(name "VSH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3654,10 +3609,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 16.51 0)
-					(length 5.08)
-					(name "6"
+				(pin input line
+					(at -11.43 20.32 0)
+					(length 2.54)
+					(name "TSCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3672,10 +3627,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 13.97 0)
-					(length 5.08)
-					(name "7"
+				(pin input line
+					(at -11.43 17.78 0)
+					(length 2.54)
+					(name "TSDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3690,10 +3645,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 11.43 0)
-					(length 5.08)
-					(name "8"
+				(pin input line
+					(at -11.43 15.24 0)
+					(length 2.54)
+					(name "BS1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3708,10 +3663,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 8.89 0)
-					(length 5.08)
-					(name "9"
+				(pin input line
+					(at -11.43 12.7 0)
+					(length 2.54)
+					(name "BUSY"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3726,10 +3681,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 6.35 0)
-					(length 5.08)
-					(name "10"
+				(pin input line
+					(at -11.43 10.16 0)
+					(length 2.54)
+					(name "~{RST}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3744,10 +3699,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 3.81 0)
-					(length 5.08)
-					(name "11"
+				(pin input line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "~{D/C}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3762,10 +3717,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 1.27 0)
-					(length 5.08)
-					(name "12"
+				(pin input line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "~{CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3780,10 +3735,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -1.27 0)
-					(length 5.08)
-					(name "13"
+				(pin input line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3798,10 +3753,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -3.81 0)
-					(length 5.08)
-					(name "14"
+				(pin input line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3816,10 +3771,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -6.35 0)
-					(length 5.08)
-					(name "15"
+				(pin input line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "VDDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3834,10 +3789,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -8.89 0)
-					(length 5.08)
-					(name "16"
+				(pin input line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "VCI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3852,10 +3807,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -11.43 0)
-					(length 5.08)
-					(name "17"
+				(pin input line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3870,10 +3825,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -13.97 0)
-					(length 5.08)
-					(name "18"
+				(pin input line
+					(at -11.43 -10.16 0)
+					(length 2.54)
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3888,10 +3843,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -16.51 0)
-					(length 5.08)
-					(name "19"
+				(pin input line
+					(at -11.43 -12.7 0)
+					(length 2.54)
+					(name "VPP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3906,10 +3861,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -19.05 0)
-					(length 5.08)
-					(name "20"
+				(pin input line
+					(at -11.43 -15.24 0)
+					(length 2.54)
+					(name "VSH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3924,10 +3879,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -21.59 0)
-					(length 5.08)
-					(name "21"
+				(pin input line
+					(at -11.43 -17.78 0)
+					(length 2.54)
+					(name "VGH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3942,10 +3897,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -24.13 0)
-					(length 5.08)
-					(name "22"
+				(pin input line
+					(at -11.43 -20.32 0)
+					(length 2.54)
+					(name "VSL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3960,10 +3915,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -26.67 0)
-					(length 5.08)
-					(name "23"
+				(pin input line
+					(at -11.43 -22.86 0)
+					(length 2.54)
+					(name "VGL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3978,10 +3933,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -29.21 0)
-					(length 5.08)
-					(name "24"
+				(pin input line
+					(at -11.43 -25.4 0)
+					(length 2.54)
+					(name "VCOM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3996,17 +3951,36 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -34.29 0)
-					(length 5.08)
-					(name "26"
+				(pin no_connect line
+					(at -2.54 35.56 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "26"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 30.48 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4496,13 +4470,33 @@
 	)
 	(text "https://www.waveshare.com/w/upload/8/87/E-Paper-Driver-HAT-Schematic.pdf"
 		(exclude_from_sim no)
-		(at 356.616 77.216 0)
+		(at 357.886 12.446 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "0655c10c-0bb1-4e02-a9e1-30ddc820c514")
+	)
+	(text "Resistor Selection"
+		(exclude_from_sim no)
+		(at 317.246 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "663cb263-9f88-46f2-8da2-36c8a651712e")
+	)
+	(text "Gate Drive Control"
+		(exclude_from_sim no)
+		(at 316.992 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8b6a5fb-d37b-46f7-aff1-6aac0f89cbc6")
 	)
 	(text_box "MCU/Fundamentals"
 		(exclude_from_sim no)
@@ -5172,6 +5166,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 26.67) (xy 344.17 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514f1baf-8646-4c2d-afbf-70d2b54d4388")
+	)
+	(wire
+		(pts
 			(xy 124.46 181.61) (xy 127 181.61)
 		)
 		(stroke
@@ -5502,6 +5506,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 29.21) (xy 344.17 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853f7a6d-8692-4e83-8e84-15daab2507de")
+	)
+	(wire
+		(pts
 			(xy 57.15 138.43) (xy 58.42 138.43)
 		)
 		(stroke
@@ -5659,6 +5673,16 @@
 			(type default)
 		)
 		(uuid "974e6d2a-ac58-4ea3-9070-fe08f9bef89a")
+	)
+	(wire
+		(pts
+			(xy 367.03 26.67) (xy 364.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989da02b-c289-4ff0-b8c4-012d4df46da4")
 	)
 	(wire
 		(pts
@@ -6707,6 +6731,50 @@
 		(uuid "d37744fd-abb3-4365-8c4f-4563afd7136c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.4021 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INK_RESE"
+		(shape input)
+		(at 341.63 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d982da76-c2c7-4626-8c72-eb494265c0cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 329.6944 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INK_GDR"
+		(shape input)
+		(at 341.63 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "daf33767-899f-4b51-b56a-b7076325f120")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 330.6619 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8476,6 +8544,152 @@
 			(project ""
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inkbadge:EINK-2.9inch")
+		(at 355.6 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "509af0d5-c399-4c76-a8bd-75f4f1f024a7")
+		(property "Reference" "U5"
+			(at 355.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn"
+			(at 355.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "inkbadge:LCSC_1x24-1MP_P0.5mm_Horizontal"
+			(at 355.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C262567"
+			(at 355.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "c2ed881f-d7fb-4491-a399-f3f357fca8e0")
+		)
+		(pin "12"
+			(uuid "13155014-bb44-40bd-9f7b-f5d279708bd8")
+		)
+		(pin "23"
+			(uuid "01383acb-d39e-4be7-a3f9-2f8c1e6dc811")
+		)
+		(pin "19"
+			(uuid "258a7516-1445-4d41-9d22-859f418ca062")
+		)
+		(pin "15"
+			(uuid "88f990e1-1b9e-4d62-8bc4-5896367ba3e4")
+		)
+		(pin "1"
+			(uuid "c5c604dd-a791-4831-bb15-950db55b8626")
+		)
+		(pin "17"
+			(uuid "47a29c09-6f90-483a-87e7-16fc3063cc0d")
+		)
+		(pin "10"
+			(uuid "9260f07d-6328-4b02-b932-6359c83d7504")
+		)
+		(pin "2"
+			(uuid "2c8fd06b-64cb-4b8c-b295-f0e4360087fa")
+		)
+		(pin "9"
+			(uuid "d8c20d9b-9a99-4d4c-8988-1f76b3875222")
+		)
+		(pin "13"
+			(uuid "336d9dda-1061-4246-aa5a-2fb8ab9624f7")
+		)
+		(pin "20"
+			(uuid "21d13b8d-b517-4a71-83ca-b3c2d26fbe95")
+		)
+		(pin "6"
+			(uuid "cc37ffe6-9621-4511-a163-b99bb0dc2ca4")
+		)
+		(pin "16"
+			(uuid "d52023f0-b3c9-4ce2-829c-de3be0666227")
+		)
+		(pin "22"
+			(uuid "409a6d9c-7bd3-40b8-aafb-0749d68d668f")
+		)
+		(pin "11"
+			(uuid "888f067f-a7e1-422c-81b0-ee489c1c7343")
+		)
+		(pin "14"
+			(uuid "e90ebc40-1fc0-47dc-8993-906c3d12798d")
+		)
+		(pin "4"
+			(uuid "148e949a-4c00-48fb-a05b-50eca7b77e36")
+		)
+		(pin "21"
+			(uuid "3aeffe39-0998-4bba-975c-6f09627684d3")
+		)
+		(pin "24"
+			(uuid "5e62988c-bdd2-47d3-8859-d15635f99929")
+		)
+		(pin "8"
+			(uuid "f1bfc7dc-8c0b-4b0e-9176-f617eca23d78")
+		)
+		(pin "7"
+			(uuid "53546e95-9ba4-43ec-b2dd-4ca9a994a2dc")
+		)
+		(pin "5"
+			(uuid "f5c14baf-8fb6-440d-a54d-7cabac8e0672")
+		)
+		(pin "3"
+			(uuid "050bfe74-1f38-448e-8b08-66fcb90f1c5d")
+		)
+		(pin "MP"
+			(uuid "4faf9671-ee78-42f6-9ba5-1ff31e8edefc")
+		)
+		(instances
+			(project "PCB"
+				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10549,6 +10763,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 367.03 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de711fb7-4e84-49fe-908e-f22fa003991c")
+		(property "Reference" "#PWR029"
+			(at 367.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 367.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b79cf38-411a-416f-a20c-b9a3634ebf13")
+		)
+		(instances
+			(project ""
+				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 233.68 194.31 0)
 		(unit 1)
@@ -11150,157 +11430,6 @@
 			(project ""
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:AFC07-S24FCA-00")
-		(at 356.87 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe785300-e8b2-4356-bbe4-0096632a5e9b")
-		(property "Reference" "FPC1"
-			(at 365.76 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AFC07-S24FCA-00"
-			(at 365.76 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:FPC-SMD_AFC07-S24FCA-00"
-			(at 356.87 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_JUSHUO-AFC07-S24FCA-00_C262567.html"
-			(at 356.87 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 356.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C262567"
-			(at 356.87 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "674d42e8-c8eb-4b0f-9603-74cda96a7745")
-		)
-		(pin "16"
-			(uuid "05e3af36-297a-4042-bbd6-b198a27d2375")
-		)
-		(pin "19"
-			(uuid "0bab0136-a4a5-4356-9b70-132a4865f91d")
-		)
-		(pin "22"
-			(uuid "e5ef09f1-1634-42b1-90dc-3770b616f5fc")
-		)
-		(pin "25"
-			(uuid "03e1f030-4037-4e95-8b34-121a5eb16b4b")
-		)
-		(pin "1"
-			(uuid "1e6b55cd-8d7b-4871-9889-46bed4651362")
-		)
-		(pin "2"
-			(uuid "4451e8f0-bd78-4115-816a-abb99351f352")
-		)
-		(pin "4"
-			(uuid "85ab35eb-127c-4fd5-892b-548afe5af77f")
-		)
-		(pin "3"
-			(uuid "6e37a2f6-d49d-42b6-aaaa-114dfe7bd818")
-		)
-		(pin "24"
-			(uuid "fa62d7d5-eef6-4263-b9fd-52b41dda84e3")
-		)
-		(pin "13"
-			(uuid "f76eb6b7-75fc-4917-8207-d8c7ee92e8f5")
-		)
-		(pin "8"
-			(uuid "840dc725-ec58-42e2-898a-f9ba06aba710")
-		)
-		(pin "10"
-			(uuid "613aeec6-effa-41b9-af66-67e5ce475c39")
-		)
-		(pin "15"
-			(uuid "f5ecc1d1-f7c9-4f53-a362-631e84dea1f6")
-		)
-		(pin "12"
-			(uuid "c6e5d3f3-2079-4923-b3b1-fc2dcb8fa373")
-		)
-		(pin "5"
-			(uuid "d9017e53-bfb2-4aae-a67c-1de34d12890f")
-		)
-		(pin "9"
-			(uuid "c2f4eae4-5849-4a75-aadb-33f0c52c4d89")
-		)
-		(pin "18"
-			(uuid "70e2632c-0396-4911-ae1f-d4a9040df865")
-		)
-		(pin "11"
-			(uuid "82a83cfe-2fe9-4c6f-8a98-f5fb125634fa")
-		)
-		(pin "7"
-			(uuid "6b53fb83-389e-452d-8beb-56b8173b5ab4")
-		)
-		(pin "14"
-			(uuid "0c463752-8505-42bd-8a4a-9825ba7fab69")
-		)
-		(pin "26"
-			(uuid "914948f9-06c2-4b8d-8a82-4a5e898fca6f")
-		)
-		(pin "21"
-			(uuid "5b2c52c9-42de-4ffc-b2f8-342f4cb9cab0")
-		)
-		(pin "20"
-			(uuid "767ca589-2130-41ea-926d-309bcfadbbdf")
-		)
-		(pin "6"
-			(uuid "b87283d5-bb1f-4ccf-9af3-d836f26bf1d1")
-		)
-		(pin "23"
-			(uuid "8d3c3cd1-c519-49f3-aacb-b03ef73e7835")
-		)
-		(instances
-			(project ""
-				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
-					(reference "FPC1")
 					(unit 1)
 				)
 			)
