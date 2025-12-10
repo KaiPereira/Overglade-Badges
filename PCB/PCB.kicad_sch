@@ -3643,6 +3643,323 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RF_NFC:ST25DV04K-JFR6D3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 8.89 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ST25DV04K-JFR6D3"
+				(at 10.795 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:ST_UFDFPN-12-1EP_3x3mm_P0.5mm_EP1.4x2.55mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/st25dv04k.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dynamic NFC/RFID tag IC with 4-Kbit EEPROM, UFDFPN-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NFC Tag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ST*UFDFPN*3x3mm*P0.5mm*EP1.4x2.55mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ST25DV04K-JFR6D3_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "LPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VDCG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "V_EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "GPO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "AC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "AC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5608,8 +5925,16 @@
 		(uuid "f5fcc1a5-8eba-456e-945a-5e5142dcbf81")
 	)
 	(no_connect
+		(at 127 243.84)
+		(uuid "150011a5-1e12-4cf1-8032-12563df3c93d")
+	)
+	(no_connect
 		(at 50.8 68.58)
 		(uuid "1f76385a-f7ed-4472-8449-0b77755688b4")
+	)
+	(no_connect
+		(at 127 241.3)
+		(uuid "98032a78-09af-4782-a370-becacbfba6f6")
 	)
 	(no_connect
 		(at 50.8 71.12)
@@ -5852,6 +6177,16 @@
 			(type default)
 		)
 		(uuid "14a1c99e-e65b-4a09-9a22-b90990277921")
+	)
+	(wire
+		(pts
+			(xy 351.79 87.63) (xy 351.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1605e17b-03a0-4819-b184-90bb47218e81")
 	)
 	(wire
 		(pts
@@ -7545,6 +7880,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 251.46) (xy 127 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23cca2f-604e-49cd-8d99-4af76ba49b6a")
+	)
+	(wire
+		(pts
 			(xy 134.62 52.07) (xy 134.62 53.34)
 		)
 		(stroke
@@ -8344,6 +8689,72 @@
 			(project ""
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "046ea75c-fc43-4885-9d1d-665bdb353aec")
+		(property "Reference" "#PWR034"
+			(at 124.46 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3d11aa-bbba-4c9b-a02e-65305b84a973")
+		)
+		(instances
+			(project ""
+				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9317,6 +9728,72 @@
 			(project "PCB"
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 351.79 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d1afe30-e965-41a2-9c88-04c0e2c5137c")
+		(property "Reference" "#PWR035"
+			(at 351.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b74923-dcea-425c-8c0a-20e738247c10")
+		)
+		(instances
+			(project ""
+				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12800,6 +13277,109 @@
 			(project "PCB"
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_NFC:ST25DV04K-JFR6D3")
+		(at 351.79 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba5c9f0-898e-48e2-8746-6eac527b8802")
+		(property "Reference" "U6"
+			(at 353.9333 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ST25DV04K-JFR6D3"
+			(at 353.9333 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:ST_UFDFPN-12-1EP_3x3mm_P0.5mm_EP1.4x2.55mm"
+			(at 351.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/st25dv04k.pdf"
+			(at 351.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dynamic NFC/RFID tag IC with 4-Kbit EEPROM, UFDFPN-12"
+			(at 351.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "cb02f90e-72d1-4698-b91f-b6b60812a756")
+		)
+		(pin "3"
+			(uuid "651e3e7c-baef-401f-a83d-1927808fe0e9")
+		)
+		(pin "6"
+			(uuid "24228267-f113-4437-b477-a96a26f745e2")
+		)
+		(pin "12"
+			(uuid "0d9d8417-6e2d-4072-b194-13f7b2de671f")
+		)
+		(pin "9"
+			(uuid "a2329abc-9076-420b-bbe4-200d5fedab7f")
+		)
+		(pin "2"
+			(uuid "8e2332ac-18ab-492f-8c74-da4e937c085d")
+		)
+		(pin "13"
+			(uuid "3b6f9ca6-97a9-40b1-85a3-13be6784ce65")
+		)
+		(pin "5"
+			(uuid "3dfc6f87-5c96-4c33-9417-182edfe18c88")
+		)
+		(pin "4"
+			(uuid "97dac624-6335-477f-aed3-4188f730c8e4")
+		)
+		(pin "1"
+			(uuid "da624e6d-70f3-4502-95b8-83374796cc98")
+		)
+		(pin "8"
+			(uuid "b4e344b5-f22d-46ab-bb0b-b329cfca4404")
+		)
+		(pin "7"
+			(uuid "16611cde-8cc2-410f-9683-42f1ed4b2fc9")
+		)
+		(pin "11"
+			(uuid "4222a7c6-5a9f-472c-a4c9-5c6c5e4dd7cc")
+		)
+		(instances
+			(project ""
+				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
+					(reference "U6")
 					(unit 1)
 				)
 			)
