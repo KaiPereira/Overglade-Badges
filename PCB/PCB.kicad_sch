@@ -46794,7 +46794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:PinHeader_PAD_1x15_P2.54mm_Vertical"
 			(at 360.68 154.94 0)
 			(effects
 				(font
@@ -54353,7 +54353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:PinHeader_PAD_1x15_P2.54mm_Vertical"
 			(at 337.82 154.94 0)
 			(effects
 				(font
