@@ -5556,6 +5556,16 @@
 		)
 		(uuid "663cb263-9f88-46f2-8da2-36c8a651712e")
 	)
+	(text "Wired this because I had too many GPIO's \nand might as well give more user features!"
+		(exclude_from_sim no)
+		(at 354.584 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8aaafc8e-f253-4f66-8b13-f68103990402")
+	)
 	(text "Gate Drive Control"
 		(exclude_from_sim no)
 		(at 240.03 28.448 0)
@@ -6444,6 +6454,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 195.58) (xy 177.8 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280ad7f5-11fb-49f2-865c-b4139665e872")
+	)
+	(wire
+		(pts
 			(xy 236.22 69.85) (xy 233.68 69.85)
 		)
 		(stroke
@@ -6784,7 +6804,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 60.96) (xy 387.35 60.96)
+			(xy 375.92 60.96) (xy 388.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6901,6 +6921,16 @@
 			(type default)
 		)
 		(uuid "60e66455-dd13-490b-a587-c19a84a0eb67")
+	)
+	(wire
+		(pts
+			(xy 187.96 190.5) (xy 177.8 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6256c3d0-2ad4-4e5a-9d39-bb7becc940a4")
 	)
 	(wire
 		(pts
@@ -7281,6 +7311,16 @@
 			(type default)
 		)
 		(uuid "849903e2-2509-403c-9480-aecd764dd3c8")
+	)
+	(wire
+		(pts
+			(xy 187.96 193.04) (xy 177.8 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866ddf68-5554-473d-a26e-9d334dbdd228")
 	)
 	(wire
 		(pts
@@ -7764,7 +7804,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 60.96) (xy 323.85 60.96)
+			(xy 311.15 60.96) (xy 323.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7794,7 +7834,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 58.42) (xy 332.74 58.42)
+			(xy 311.15 58.42) (xy 332.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8492,6 +8532,16 @@
 		)
 		(uuid "19f7d607-4c69-4294-b19a-8135b498b84a")
 	)
+	(label "NFC_GPO"
+		(at 187.96 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "233db4be-0a35-4053-9d53-4623c29f4d8c")
+	)
 	(label "EPD_BUSY"
 		(at 248.92 46.99 0)
 		(effects
@@ -8592,6 +8642,26 @@
 		)
 		(uuid "46397fe6-1f35-4357-a226-9411c41b3024")
 	)
+	(label "NFC_SDA"
+		(at 311.15 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a940e9e-f0cb-4f66-a9ba-e47ebbb5c9ff")
+	)
+	(label "NFC_SDA"
+		(at 187.96 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "507ea051-ecab-4078-8b92-efb6e2030e3a")
+	)
 	(label "QSPI_SS"
 		(at 234.95 209.55 0)
 		(effects
@@ -8621,6 +8691,16 @@
 			(justify right bottom)
 		)
 		(uuid "5918bee6-5918-4e89-b9b0-fff67c37ef5d")
+	)
+	(label "NFC_SCL"
+		(at 187.96 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f1f4463-bfdf-4f1b-9ee7-f2ec185e0168")
 	)
 	(label "QSPI_SD1"
 		(at 234.95 217.17 0)
@@ -8661,6 +8741,16 @@
 			(justify right bottom)
 		)
 		(uuid "829149fc-db5f-4f14-a121-8f74ce72f1a1")
+	)
+	(label "NFC_SCL"
+		(at 311.15 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8311e1bf-9e3e-40d9-bea0-f4368ca43028")
 	)
 	(label "RESE"
 		(at 248.92 31.75 0)
@@ -8821,6 +8911,16 @@
 			(justify left bottom)
 		)
 		(uuid "da76dd56-3595-41b5-924b-9806d632aa87")
+	)
+	(label "NFC_GPO"
+		(at 388.62 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df01094a-760c-4873-9a7f-ccc70902ef76")
 	)
 	(label "EPD_SCK"
 		(at 248.92 57.15 0)
