@@ -5646,6 +5646,26 @@
 		)
 		(uuid "b4e2bc7d-d008-42c8-8917-501b877a3add")
 	)
+	(text_box "NFC Antenna"
+		(exclude_from_sim no)
+		(at 297.18 15.24 0)
+		(size 106.68 86.36)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "f957774f-b3fe-468f-9343-182fbcfd95b9")
+	)
 	(junction
 		(at 181.61 142.24)
 		(diameter 0)
@@ -6254,6 +6274,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 68.58) (xy 369.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124baed0-367b-4ccf-b8b2-805321967bc5")
+	)
+	(wire
+		(pts
 			(xy 233.68 85.09) (xy 233.68 82.55)
 		)
 		(stroke
@@ -6501,6 +6531,16 @@
 			(type default)
 		)
 		(uuid "2cd5f361-2a4f-4758-9a1a-7274858e635b")
+	)
+	(wire
+		(pts
+			(xy 369.57 71.12) (xy 375.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d63809b-07dd-4823-8661-4f9b47f650a9")
 	)
 	(wire
 		(pts
@@ -6831,6 +6871,16 @@
 			(type default)
 		)
 		(uuid "549c8b4c-0d1e-4640-8c23-d5400045267f")
+	)
+	(wire
+		(pts
+			(xy 369.57 63.5) (xy 375.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550ae900-8750-473c-baf7-5590f6c80c50")
 	)
 	(wire
 		(pts
@@ -8171,6 +8221,16 @@
 			(type default)
 		)
 		(uuid "d2682c45-21c6-4ff7-8334-3afce7995e50")
+	)
+	(wire
+		(pts
+			(xy 369.57 66.04) (xy 369.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28272b2-89e2-4cd0-8b05-68f95374bef3")
 	)
 	(wire
 		(pts
@@ -10417,6 +10477,75 @@
 			(project ""
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 375.92 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c34c158-c209-4980-817b-9b9a25b61047")
+		(property "Reference" "L1"
+			(at 377.444 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NFC Antenna"
+			(at 377.444 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 375.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fa1f4a3-1374-4b66-987a-eafe5d87f19c")
+		)
+		(pin "2"
+			(uuid "c3f24b2b-b251-41cf-82a7-27e879d1a608")
+		)
+		(instances
+			(project ""
+				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
+					(reference "L1")
 					(unit 1)
 				)
 			)
