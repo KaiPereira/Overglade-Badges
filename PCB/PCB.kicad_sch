@@ -12002,7 +12002,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "12MHz"
 			(at 62.23 200.66 90)
 			(effects
 				(font
@@ -12010,7 +12010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 62.23 212.09 0)
 			(effects
 				(font
@@ -15325,7 +15325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA252010S"
 			(at 180.34 54.61 0)
 			(effects
 				(font
@@ -15345,6 +15345,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA6045S680MT"
+			(at 180.34 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
