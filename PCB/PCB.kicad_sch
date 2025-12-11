@@ -45870,6 +45870,16 @@
 		)
 		(uuid "0ebff27d-49e7-49e1-a67e-a7d16a8320ea")
 	)
+	(label "EPD_DC"
+		(at 187.96 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1075148f-043a-46bd-b6b1-66584f7f71a2")
+	)
 	(label "GPIO9"
 		(at 321.31 172.72 0)
 		(effects
@@ -46491,14 +46501,14 @@
 		(uuid "bfb88b39-3645-4c59-9ba8-1b635ac9827e")
 	)
 	(label "EPD_BUSY"
-		(at 187.96 218.44 180)
+		(at 187.96 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c2fc048a-9442-414a-b969-c0f0bbee525f")
+		(uuid "c41ef63f-5ce3-4e80-bb43-80592c19fff8")
 	)
 	(label "GPIO25"
 		(at 187.96 238.76 180)
@@ -46509,16 +46519,6 @@
 			(justify right bottom)
 		)
 		(uuid "c665195b-55f7-4c99-8745-61372c756a93")
-	)
-	(label "EPD_DC"
-		(at 187.96 210.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7399418-e936-46af-a472-bace4c1592fb")
 	)
 	(label "XIN"
 		(at 85.09 207.01 180)
