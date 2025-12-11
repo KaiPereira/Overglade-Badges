@@ -3262,7 +3262,7 @@
 			(net 1 "+5V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "38ac037b-2264-4ca4-8b23-114d2604a209")
+			(uuid "6bf89f60-057a-4a96-853f-1df0e363864e")
 		)
 		(pad "2" smd custom
 			(at -0.885 2.54 90)
@@ -3287,7 +3287,7 @@
 			(net 63 "/GPIO20")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "99d5534f-db0f-404e-b985-61559ec1bc7b")
+			(uuid "3cc0b0b6-31d2-45b4-aaf3-69d5451a144b")
 		)
 		(pad "3" smd custom
 			(at -0.885 5.08 90)
@@ -3312,7 +3312,7 @@
 			(net 2 "GND")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "846d1050-674c-4c70-a67b-53a51f0c9810")
+			(uuid "1457d1d6-8e32-4e45-be49-bf70d3eddfe2")
 		)
 		(pad "4" smd custom
 			(at -0.885 7.62 90)
@@ -3337,7 +3337,7 @@
 			(net 55 "/GPIO21")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "654534ae-d641-4c0c-9a83-aa77a3d17175")
+			(uuid "7f4a9041-8955-4a74-ba28-aa040233ce7c")
 		)
 		(pad "5" smd custom
 			(at -0.885 10.16 90)
@@ -3362,7 +3362,7 @@
 			(net 3 "+3V3")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "a4812846-536b-462d-84f7-6cec3db08772")
+			(uuid "cc1a75b7-0105-499e-9402-838785e41ca0")
 		)
 		(pad "6" smd custom
 			(at -0.885 12.7 90)
@@ -3387,7 +3387,7 @@
 			(net 61 "/GPIO22")
 			(pinfunction "Pin_6")
 			(pintype "passive")
-			(uuid "701948ac-8259-41bd-b2c1-10b919b798c3")
+			(uuid "fb2d299c-8ca1-4e61-b77c-00eb869dbaef")
 		)
 		(pad "7" smd custom
 			(at -0.885 15.24 90)
@@ -3412,7 +3412,7 @@
 			(net 67 "/GPIO23")
 			(pinfunction "Pin_7")
 			(pintype "passive")
-			(uuid "acdfaaa4-c7bc-4c6c-aac0-62100dfa9376")
+			(uuid "a6cf5d93-0016-4ce1-a909-83b95ab06f6c")
 		)
 		(pad "8" smd custom
 			(at -0.885 17.78 90)
@@ -3437,7 +3437,7 @@
 			(net 2 "GND")
 			(pinfunction "Pin_8")
 			(pintype "passive")
-			(uuid "a48cf7bc-628c-44b5-bd48-df1170b540a9")
+			(uuid "4fb7037d-dce9-4929-9d7f-7d2811f4d525")
 		)
 		(pad "9" smd custom
 			(at -0.885 20.32 90)
@@ -3462,7 +3462,7 @@
 			(net 57 "/GPIO24")
 			(pinfunction "Pin_9")
 			(pintype "passive")
-			(uuid "69c48a3a-5ed0-42b4-9bbe-13b0657a6092")
+			(uuid "0cdf1bdb-53dc-413e-beac-54d73c0a42e9")
 		)
 		(pad "10" smd custom
 			(at -0.885 22.86 90)
@@ -3487,7 +3487,7 @@
 			(net 62 "/GPIO25")
 			(pinfunction "Pin_10")
 			(pintype "passive")
-			(uuid "e17bf9fa-a779-40e6-972c-97b4b17dd411")
+			(uuid "98038c7b-18dc-4c36-bc50-5447f9fb1ec3")
 		)
 		(pad "11" smd custom
 			(at -0.885 25.4 90)
@@ -3512,7 +3512,7 @@
 			(net 70 "/GPIO26")
 			(pinfunction "Pin_11")
 			(pintype "passive")
-			(uuid "b8d21ea7-00c7-4dae-b061-211b1fd3d596")
+			(uuid "23abd935-e6a9-456f-be14-b59b5af7cab5")
 		)
 		(pad "12" smd custom
 			(at -0.885 27.94 90)
@@ -3537,7 +3537,7 @@
 			(net 64 "/GPIO27")
 			(pinfunction "Pin_12")
 			(pintype "passive")
-			(uuid "d50b2281-1f99-4704-b468-b45839b7c8b5")
+			(uuid "07757c9c-d2bb-42c8-af66-5c1f6abfe20c")
 		)
 		(pad "13" smd custom
 			(at -0.885 30.48 90)
@@ -3562,7 +3562,7 @@
 			(net 2 "GND")
 			(pinfunction "Pin_13")
 			(pintype "passive")
-			(uuid "7018f139-0b90-49b7-bc1c-26934aa0af14")
+			(uuid "7e055aa3-70cd-4056-b316-4464a3b48310")
 		)
 		(pad "14" smd custom
 			(at -0.885 33.02 90)
@@ -3587,7 +3587,7 @@
 			(net 53 "/GPIO28")
 			(pinfunction "Pin_14")
 			(pintype "passive")
-			(uuid "5b2b97fa-7c77-4b39-9faf-4e59ec0110ef")
+			(uuid "c41ea753-2631-45e2-8b48-f000097032d3")
 		)
 		(pad "15" smd custom
 			(at -0.885 35.56 90)
@@ -3612,7 +3612,7 @@
 			(net 52 "/GPIO29")
 			(pinfunction "Pin_15")
 			(pintype "passive")
-			(uuid "45fbe2f6-c0b5-4040-8ca9-4769a9d0d318")
+			(uuid "5ef6533d-2fd5-4402-8669-daf1422e01ee")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x15_P2.54mm_Vertical.step"
@@ -4008,7 +4008,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "cdc3858f-6293-498c-80c1-68e34b501ee1")
+			(uuid "c4c62dd7-d93d-4f02-88dc-f37a644d7647")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.13 270)
@@ -4020,7 +4020,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "cdc3858f-6293-498c-80c1-68e34b501ee1")
+			(uuid "b2c43cbc-ccb8-4031-8324-93af3110a141")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.05 270)
@@ -4032,7 +4032,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "cdc3858f-6293-498c-80c1-68e34b501ee1")
+			(uuid "58f63eda-5b68-4adf-81f8-507df5d8ec08")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
@@ -4188,7 +4188,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "641469c5-889f-4007-95da-fd4c4e1060c6")
+			(uuid "cb1caf18-c235-424a-b93a-a9fcd63275c2")
 		)
 		(pad "2" smd roundrect
 			(at -2.075 1.075)
@@ -4210,7 +4210,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "cf0a3f21-d695-4e11-ac30-96b0395471a4")
+			(uuid "5e8968d9-86e3-41c9-8fcc-3cf4b42134e3")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/inkbadge.pretty/SW-SMD_4P-L4.2-W3.3-H2.5-P2.15-LS4.6.step"
@@ -5345,7 +5345,7 @@
 			(net 3 "+3V3")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "f52c35c4-945e-43ae-89eb-618d15f207b0")
+			(uuid "dadbc028-652b-40dd-a08a-e434aac824c0")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3)
@@ -6993,7 +6993,7 @@
 			(net 1 "+5V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "5c715dc1-fad8-4900-82e1-d3dd3db3ff96")
+			(uuid "8a30e88b-8525-445a-aa2f-a78be92aaa32")
 		)
 		(pad "2" smd custom
 			(at -0.885 2.54 270)
@@ -7018,7 +7018,7 @@
 			(net 48 "/GPIO10")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "98e7ffbb-c1ff-4bcb-be14-7d82ce5ed0ce")
+			(uuid "c1684b44-a06f-4b19-a5b9-c723a9cec367")
 		)
 		(pad "3" smd custom
 			(at -0.885 5.08 270)
@@ -7043,7 +7043,7 @@
 			(net 2 "GND")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "9a30e507-2b1f-4ba6-a76d-e626f0ddc547")
+			(uuid "9b88c3e1-4e47-4357-a5dd-4672e30a5f9a")
 		)
 		(pad "4" smd custom
 			(at -0.885 7.62 270)
@@ -7068,7 +7068,7 @@
 			(net 43 "/GPIO11")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "b49ce14d-8cbb-4227-a2f5-d5145ed8d358")
+			(uuid "6bb8a3b4-559e-4656-9a86-6d9c455eb8c0")
 		)
 		(pad "5" smd custom
 			(at -0.885 10.16 270)
@@ -7093,7 +7093,7 @@
 			(net 3 "+3V3")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "0a2f93f3-a71c-4db6-8921-f4430857cfbf")
+			(uuid "d9a106f5-8704-44ba-bb87-07f85e355cf0")
 		)
 		(pad "6" smd custom
 			(at -0.885 12.7 270)
@@ -7118,7 +7118,7 @@
 			(net 41 "/GPIO12")
 			(pinfunction "Pin_6")
 			(pintype "passive")
-			(uuid "612431d0-a88a-4904-b04e-959506641ba5")
+			(uuid "619882dd-8840-4d8a-a9d2-095f26633abe")
 		)
 		(pad "7" smd custom
 			(at -0.885 15.24 270)
@@ -7143,7 +7143,7 @@
 			(net 39 "/GPIO13")
 			(pinfunction "Pin_7")
 			(pintype "passive")
-			(uuid "0292cf08-8a9b-4f64-9485-5d96d02c3df0")
+			(uuid "70bf989e-3b4e-4997-ab37-055bc28a4594")
 		)
 		(pad "8" smd custom
 			(at -0.885 17.78 270)
@@ -7168,7 +7168,7 @@
 			(net 2 "GND")
 			(pinfunction "Pin_8")
 			(pintype "passive")
-			(uuid "017b0e96-2ea6-4574-9101-3279eb283fe6")
+			(uuid "b06c0edc-3567-4db0-b02f-8d7276098387")
 		)
 		(pad "9" smd custom
 			(at -0.885 20.32 270)
@@ -7193,7 +7193,7 @@
 			(net 49 "/GPIO14")
 			(pinfunction "Pin_9")
 			(pintype "passive")
-			(uuid "a16640c4-2c50-4b9a-9b29-f385d5056994")
+			(uuid "3a44a0e4-14bd-4276-8ca0-4c92a2b97dd6")
 		)
 		(pad "10" smd custom
 			(at -0.885 22.86 270)
@@ -7218,7 +7218,7 @@
 			(net 51 "/GPIO15")
 			(pinfunction "Pin_10")
 			(pintype "passive")
-			(uuid "d51c21fd-5c73-4215-9c80-62a4afdb6a17")
+			(uuid "9b42929d-1ad3-434f-b9b8-ff4d06761550")
 		)
 		(pad "11" smd custom
 			(at -0.885 25.4 270)
@@ -7243,7 +7243,7 @@
 			(net 42 "/GPIO16")
 			(pinfunction "Pin_11")
 			(pintype "passive")
-			(uuid "10556e12-b4af-4a75-a562-ad0aafb63a6c")
+			(uuid "21c615df-e16d-42ae-aa77-a28534a39b0f")
 		)
 		(pad "12" smd custom
 			(at -0.885 27.94 270)
@@ -7268,7 +7268,7 @@
 			(net 44 "/GPIO17")
 			(pinfunction "Pin_12")
 			(pintype "passive")
-			(uuid "1aec6aff-02d3-4796-b35c-9bf03f7f0d6f")
+			(uuid "1e0327d6-536c-405b-b789-10cead47ebbd")
 		)
 		(pad "13" smd custom
 			(at -0.885 30.48 270)
@@ -7293,7 +7293,7 @@
 			(net 2 "GND")
 			(pinfunction "Pin_13")
 			(pintype "passive")
-			(uuid "3607ef41-bf6f-4010-9044-133473992c73")
+			(uuid "7eae0795-f0a2-424f-b6b7-a14ee0bc9d1f")
 		)
 		(pad "14" smd custom
 			(at -0.885 33.02 270)
@@ -7318,7 +7318,7 @@
 			(net 45 "/GPIO18")
 			(pinfunction "Pin_14")
 			(pintype "passive")
-			(uuid "a9e8027f-98b3-4ede-ad02-5f0ab3427441")
+			(uuid "f95154a5-2370-4a6a-bcba-f986d823b0f1")
 		)
 		(pad "15" smd custom
 			(at -0.885 35.56 270)
@@ -7343,7 +7343,7 @@
 			(net 46 "/GPIO19")
 			(pinfunction "Pin_15")
 			(pintype "passive")
-			(uuid "7c676590-ba98-42ae-959e-707794728323")
+			(uuid "fc5e7f0b-7d32-446c-b859-b4731454a9e1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x15_P2.54mm_Vertical.step"
@@ -10586,7 +10586,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "e0542fef-11e4-46db-91e7-c6f3400f1bd9")
+			(uuid "6d9baf28-3479-40a5-ad0a-22a254e7a135")
 		)
 		(pad "2" smd roundrect
 			(at -2.075 1.075)
@@ -10608,7 +10608,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "d1790ad1-3749-4fd8-9c66-10878c9fb136")
+			(uuid "2537797f-ba01-44d7-bbf2-c03ffa390d40")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/inkbadge.pretty/SW-SMD_4P-L4.2-W3.3-H2.5-P2.15-LS4.6.step"
@@ -11375,7 +11375,7 @@
 			(pinfunction "SHIELD")
 			(pintype "output")
 			(thermal_bridge_angle 45)
-			(uuid "682302da-d45f-4741-aac9-53f39caeb9a6")
+			(uuid "3d0398d4-8b42-4517-917f-6a1d6d249243")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Amphenol_F32Q-1A7x1-11024_1x24-1MP_P0.5mm_Horizontal.step"
@@ -13919,7 +13919,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "34e1314d-16d6-4964-bf37-55d8141a41d8")
+			(uuid "67c11dda-d2b1-4ab7-ae72-d3a7e8bbeda7")
 		)
 		(pad "2" smd roundrect
 			(at -2.075 1.075)
@@ -13941,7 +13941,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "93d1e8fc-55db-4df7-8f1d-86bd0b73d65f")
+			(uuid "62fd939e-645b-4e15-b043-fa90bfc5db39")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/inkbadge.pretty/SW-SMD_4P-L4.2-W3.3-H2.5-P2.15-LS4.6.step"
@@ -15976,6 +15976,16 @@
 		(layer "Edge.Cuts")
 		(uuid "382e950f-3dc5-40ff-8632-bc7454421e90")
 	)
+	(gr_line
+		(start 119 98.7)
+		(end 106 98.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "409dd624-8050-4a0e-8cfe-d35eeb59b2ba")
+	)
 	(gr_arc
 		(start 70.999763 145.052493)
 		(mid 77.067972 147.929201)
@@ -16021,6 +16031,17 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "6514244f-cf87-473c-ad69-1b1d44dd5a3b")
+	)
+	(gr_arc
+		(start 106 101.9)
+		(mid 104.4 100.3)
+		(end 106 98.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "92e42644-5dc6-4e7f-a1d1-c544d6275d3c")
 	)
 	(gr_line
 		(start 179.052893 95)
@@ -16116,6 +16137,27 @@
 		(layer "Edge.Cuts")
 		(uuid "d1668fa7-5747-481d-b635-5ad07d0ff920")
 	)
+	(gr_arc
+		(start 119 98.7)
+		(mid 120.6 100.3)
+		(end 119 101.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d4776caf-91bd-4bf9-a4f6-a22e3b28e001")
+	)
+	(gr_line
+		(start 106 101.9)
+		(end 119 101.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9aabecd-7c34-4c5b-a040-57c54723e309")
+	)
 	(gr_line
 		(start 80.947107 95)
 		(end 144.052893 95)
@@ -16173,6 +16215,12 @@
 			"ac80213e-e718-40c6-9253-c37bf5b595b1" "d3d229de-1802-482c-9fed-6c1114dc1ba4"
 			"de8eba6b-e456-4c3d-8a49-03bb9d1d5964" "e672e2af-7348-4567-9a05-a4b6b9f3458e"
 			"f8850f86-9c6b-4a74-b68b-988a968529b9" "f96a75bb-5129-40e6-994f-519098d0904d"
+		)
+	)
+	(group ""
+		(uuid "120752b8-446a-4cda-8adc-c2ada5985cb0")
+		(members "409dd624-8050-4a0e-8cfe-d35eeb59b2ba" "92e42644-5dc6-4e7f-a1d1-c544d6275d3c"
+			"d4776caf-91bd-4bf9-a4f6-a22e3b28e001" "e9aabecd-7c34-4c5b-a040-57c54723e309"
 		)
 	)
 	(embedded_fonts no)
