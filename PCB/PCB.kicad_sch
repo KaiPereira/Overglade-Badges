@@ -45782,6 +45782,7 @@
 	)
 	(label "D-"
 		(at 144.78 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45789,6 +45790,17 @@
 			(justify right bottom)
 		)
 		(uuid "000e86bf-85ff-4e2e-80eb-4b8a72d33023")
+		(property "Netclass" "USB"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "RESET"
 		(at 116.84 175.26 0)
@@ -46042,6 +46054,7 @@
 	)
 	(label "USB_D-"
 		(at 119.38 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46049,9 +46062,21 @@
 			(justify left bottom)
 		)
 		(uuid "4013b8ec-1e5a-44b3-8d85-e3ab2c1c8d61")
+		(property "Netclass" "USB"
+			(at 119.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "D+"
 		(at 144.78 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46059,9 +46084,21 @@
 			(justify right bottom)
 		)
 		(uuid "421afa35-483e-4e7f-9e9d-b35e986c6c71")
+		(property "Netclass" "USB"
+			(at 144.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "D+"
 		(at 111.76 182.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46069,6 +46106,17 @@
 			(justify left bottom)
 		)
 		(uuid "43a41e53-b672-4b26-9fc6-5e709148770f")
+		(property "Netclass" "USB"
+			(at 111.76 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "GPIO26"
 		(at 377.19 162.56 180)
@@ -46312,6 +46360,7 @@
 	)
 	(label "USB_D-"
 		(at 62.23 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46319,6 +46368,17 @@
 			(justify right bottom)
 		)
 		(uuid "97a940bd-6465-4c0b-a2f7-1828fc0b6060")
+		(property "Netclass" "USB"
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "GPIO20"
 		(at 187.96 226.06 180)
@@ -46462,6 +46522,7 @@
 	)
 	(label "D-"
 		(at 111.76 185.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46469,6 +46530,17 @@
 			(justify left bottom)
 		)
 		(uuid "b6d7c515-18e6-4b1e-9cc6-fa1aef09e3b7")
+		(property "Netclass" "USB"
+			(at 111.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "GPIO1"
 		(at 321.31 144.78 0)
@@ -46652,6 +46724,7 @@
 	)
 	(label "USB_D+"
 		(at 119.38 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46659,9 +46732,21 @@
 			(justify left bottom)
 		)
 		(uuid "ef3ba836-9a37-4dea-8398-43f9b8713bb8")
+		(property "Netclass" "USB"
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "USB_D+"
 		(at 62.23 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46669,6 +46754,17 @@
 			(justify right bottom)
 		)
 		(uuid "f633dc79-fdc2-421d-adb4-ba6e051b49d9")
+		(property "Netclass" "USB"
+			(at 62.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "EPD_DC"
 		(at 248.92 52.07 0)
