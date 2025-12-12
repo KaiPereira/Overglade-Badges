@@ -1,4 +1,4 @@
-26298883124137998
+26300648675963890
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104481,6 +104481,13 @@ usb usb-c 2.0 pd
 0
 20
 17
+nfc
+25x35mm-NFC
+
+
+0
+4
+2
 nfc
 30x35mm-antenna
 
