@@ -48449,6 +48449,7 @@
 	(symbol
 		(lib_id "Device:L")
 		(at 375.92 71.12 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48456,7 +48457,7 @@
 		(dnp no)
 		(uuid "2c34c158-c209-4980-817b-9b9a25b61047")
 		(property "Reference" "L1"
-			(at 377.444 69.85 0)
+			(at 377.444 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48465,7 +48466,7 @@
 			)
 		)
 		(property "Value" "NFC Antenna"
-			(at 377.444 72.39 0)
+			(at 377.444 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48507,7 +48508,7 @@
 			(uuid "c3f24b2b-b251-41cf-82a7-27e879d1a608")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "L1")
 					(unit 1)
