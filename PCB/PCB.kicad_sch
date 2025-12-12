@@ -48473,7 +48473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "nfc:30x35mm-antenna"
 			(at 375.92 71.12 0)
 			(effects
 				(font
