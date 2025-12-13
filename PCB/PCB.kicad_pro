@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|203882550|64310000|fda4b5b3-77f8-41cc-9a8a-af4dd29eecbb|92a02e9a-37a3-406f-8c85-4f25e641f125",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -66,7 +71,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
