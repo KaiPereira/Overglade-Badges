@@ -7276,7 +7276,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 198.12) (xy 191.77 198.12)
+			(xy 177.8 198.12) (xy 187.96 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9276,6 +9276,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 175.26) (xy 198.12 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc96de3-b1fd-4aec-949e-7b78c68d3483")
+	)
+	(wire
+		(pts
 			(xy 124.46 251.46) (xy 127 251.46)
 		)
 		(stroke
@@ -9463,16 +9473,6 @@
 			(type default)
 		)
 		(uuid "e3337007-2302-478a-a695-319596671e81")
-	)
-	(wire
-		(pts
-			(xy 204.47 198.12) (xy 201.93 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e52715fd-d39a-461a-8f19-7f10ada7c067")
 	)
 	(wire
 		(pts
@@ -45882,6 +45882,16 @@
 		)
 		(uuid "0ebff27d-49e7-49e1-a67e-a7d16a8320ea")
 	)
+	(label "GPIO5"
+		(at 321.31 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f9a8513-9b9a-4ec1-99fa-bf3af5b970b2")
+	)
 	(label "EPD_DC"
 		(at 187.96 218.44 180)
 		(effects
@@ -45891,26 +45901,6 @@
 			(justify right bottom)
 		)
 		(uuid "1075148f-043a-46bd-b6b1-66584f7f71a2")
-	)
-	(label "GPIO9"
-		(at 321.31 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "130ebac3-a980-4c96-b9ee-4a040927276a")
-	)
-	(label "GPIO8"
-		(at 321.31 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15eeb00d-b672-4467-a65f-385128291a7a")
 	)
 	(label "QSPI_SD0"
 		(at 240.03 167.64 0)
@@ -45962,6 +45952,16 @@
 		)
 		(uuid "1eb53f3f-c859-4233-8da2-3c8fddbfdddb")
 	)
+	(label "GPIO4"
+		(at 321.31 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fdad5d9-e4c3-4f81-ba35-ffa73897782b")
+	)
 	(label "GPIO24"
 		(at 187.96 236.22 180)
 		(effects
@@ -45981,16 +45981,6 @@
 			(justify left bottom)
 		)
 		(uuid "29a4cbfb-2695-4117-90f9-c29441e0f62d")
-	)
-	(label "GPIO0"
-		(at 321.31 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2bf2fa39-9d7b-4ed8-bd27-807d9bfacaff")
 	)
 	(label "QSPI_SCK"
 		(at 116.84 208.28 0)
@@ -46031,16 +46021,6 @@
 			(justify left bottom)
 		)
 		(uuid "3108bacb-e281-4661-a0a2-19508cf6a1d9")
-	)
-	(label "GPIO0"
-		(at 187.96 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "398ece68-0880-4d65-89c4-af54f99998fd")
 	)
 	(label "XOUT"
 		(at 116.84 231.14 0)
@@ -46128,15 +46108,15 @@
 		)
 		(uuid "452d231a-1e1a-4b1d-9e73-4eb45a1567dd")
 	)
-	(label "GPIO4"
-		(at 321.31 157.48 0)
+	(label "GPIO8"
+		(at 321.31 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "48db6811-d8c2-4776-849b-a625aa001599")
+		(uuid "45459e2c-3cce-4ee4-8405-97bf1e08b49c")
 	)
 	(label "NFC_SCL"
 		(at 187.96 205.74 180)
@@ -46188,6 +46168,16 @@
 		)
 		(uuid "512e35bb-db41-431c-8303-5199255f3886")
 	)
+	(label "GPIO3"
+		(at 321.31 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5233a29f-fea9-46bd-bdd4-007965a14606")
+	)
 	(label "GPIO2"
 		(at 187.96 180.34 180)
 		(effects
@@ -46238,6 +46228,16 @@
 		)
 		(uuid "5ada39d7-fe83-4f27-8d5c-c5b981069744")
 	)
+	(label "GPIO1"
+		(at 321.31 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b0332c9-1b48-42cd-9a2d-d6186d4b336b")
+	)
 	(label "QSPI_SD1"
 		(at 240.03 170.18 0)
 		(effects
@@ -46248,15 +46248,15 @@
 		)
 		(uuid "60ffed7c-fdc9-454a-af6f-6701b2d09957")
 	)
-	(label "GPIO6"
-		(at 321.31 162.56 0)
+	(label "GPIO9"
+		(at 187.96 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "75e7e2b7-da91-4c70-b7a5-32008b98ecee")
+		(uuid "71721235-5a73-4ac4-89a7-956e3d606301")
 	)
 	(label "QSPI_SD3"
 		(at 116.84 205.74 0)
@@ -46287,6 +46287,16 @@
 			(justify right bottom)
 		)
 		(uuid "7c653aa9-da0d-4b18-82e8-0c844a1bbe02")
+	)
+	(label "GPIO6"
+		(at 321.31 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c82bef5-8350-48f4-8b34-2969d17f3998")
 	)
 	(label "GPIO7"
 		(at 187.96 193.04 180)
@@ -46380,6 +46390,16 @@
 			)
 		)
 	)
+	(label "GPIO7"
+		(at 321.31 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9849a647-4ffb-4e59-96c0-f5537cd745d7")
+	)
 	(label "GPIO20"
 		(at 187.96 226.06 180)
 		(effects
@@ -46470,16 +46490,6 @@
 		)
 		(uuid "ae35de8f-0a6c-411c-9591-1736446572a5")
 	)
-	(label "GPIO2"
-		(at 321.31 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b11b5de1-7915-40e2-a572-5a05f35c6743")
-	)
 	(label "PREVGL"
 		(at 212.09 41.91 180)
 		(effects
@@ -46500,7 +46510,7 @@
 		)
 		(uuid "b3736b3d-09be-4b6c-bbb8-aa49dbca8bb0")
 	)
-	(label "GPIO9"
+	(label "GPIO10"
 		(at 187.96 200.66 180)
 		(effects
 			(font
@@ -46541,16 +46551,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(label "GPIO1"
-		(at 321.31 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b993d5e6-f71b-4a5d-867e-2c8d56b0392c")
 	)
 	(label "GPIO23"
 		(at 187.96 233.68 180)
@@ -46642,6 +46642,16 @@
 		)
 		(uuid "d59359d9-25ae-460e-9b3b-fe77db543696")
 	)
+	(label "GPIO10"
+		(at 321.31 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6c4e0f8-d52f-44b2-a4fb-5919065bb6d8")
+	)
 	(label "QSPI_SD0"
 		(at 116.84 198.12 0)
 		(effects
@@ -46651,6 +46661,16 @@
 			(justify left bottom)
 		)
 		(uuid "d73d533a-fd03-4bed-8a45-006f800bd100")
+	)
+	(label "GPIO2"
+		(at 321.31 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8b09d4b-b20c-47be-b417-8778ad993ea5")
 	)
 	(label "QSPI_SD1"
 		(at 116.84 200.66 0)
@@ -46701,26 +46721,6 @@
 			(justify left bottom)
 		)
 		(uuid "e8d913fa-942b-4cd6-ba38-db80ce3432ac")
-	)
-	(label "GPIO5"
-		(at 321.31 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea7bfd17-b65f-42ec-8ac4-1d2bfa76138b")
-	)
-	(label "GPIO7"
-		(at 321.31 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebc70754-95af-456c-be34-92604a0917dc")
 	)
 	(label "USB_D+"
 		(at 119.38 60.96 0)
@@ -46776,15 +46776,15 @@
 		)
 		(uuid "f9cca0eb-fcaa-48b6-b9f9-f3d153bb9199")
 	)
-	(label "GPIO3"
-		(at 321.31 152.4 0)
+	(label "GPIO9"
+		(at 321.31 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fa4f002c-9a02-4788-9e2d-677e7ae296e8")
+		(uuid "f9d761de-8941-4727-b307-1858c8077c1d")
 	)
 	(label "GPIO22"
 		(at 377.19 149.86 180)
@@ -47880,7 +47880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 198.12 0)
+		(at 200.66 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47889,7 +47889,7 @@
 		(fields_autoplaced yes)
 		(uuid "177d32b9-256a-4b7e-b8d4-753fe94b5c21")
 		(property "Reference" "#PWR043"
-			(at 204.47 204.47 0)
+			(at 200.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47898,7 +47898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 203.2 0)
+			(at 200.66 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47906,7 +47906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 198.12 0)
+			(at 200.66 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47915,7 +47915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 198.12 0)
+			(at 200.66 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47924,7 +47924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 198.12 0)
+			(at 200.66 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49068,7 +49068,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 196.85 198.12 0)
+		(at 193.04 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49077,7 +49077,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d7e6c9c-55a9-4eee-b40a-7453343601c2")
 		(property "Reference" "SW3"
-			(at 196.85 190.5 0)
+			(at 193.04 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49085,7 +49085,7 @@
 			)
 		)
 		(property "Value" "TSA016A2526B"
-			(at 196.85 193.04 0)
+			(at 193.04 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49093,7 +49093,7 @@
 			)
 		)
 		(property "Footprint" "kai's library:SW_Push_SPST_TSA016"
-			(at 196.85 193.04 0)
+			(at 193.04 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49102,7 +49102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 193.04 0)
+			(at 193.04 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49111,7 +49111,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 196.85 198.12 0)
+			(at 193.04 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49126,7 +49126,7 @@
 			(uuid "bea30c72-54aa-418e-88dc-23b9480a0f21")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "SW3")
 					(unit 1)
