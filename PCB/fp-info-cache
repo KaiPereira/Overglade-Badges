@@ -1,4 +1,4 @@
-26300648776836400
+26302414449388934
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104258,6 +104258,13 @@ FPC-SMD_AFC07-S24FCA-00
 26
 26
 easyeda2kicad
+IND-SMD_L5.0-W5.0_FNR50XXS
+
+
+0
+2
+2
+easyeda2kicad
 QFN40P300X300X100-21N
 
 
@@ -104486,7 +104493,7 @@ nfc
 
 
 0
-4
+3
 2
 nfc
 30x35mm-antenna
