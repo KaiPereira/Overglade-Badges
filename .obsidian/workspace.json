@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JOURNAL.md.md",
+                "file": "JOURNAL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JOURNAL.md"
+              "title": "JOURNAL"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JOURNAL.md.md",
+                "file": "JOURNAL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JOURNAL.md"
+              "title": "Backlinks for JOURNAL"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JOURNAL.md.md",
+                "file": "JOURNAL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from JOURNAL.md"
+              "title": "Outgoing links from JOURNAL"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JOURNAL.md.md",
+                "file": "JOURNAL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JOURNAL.md"
+              "title": "Outline of JOURNAL"
             }
           }
         ]
@@ -183,10 +183,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "8d7a77694dd9b3f7",
+  "active": "47b0a80c71c233a2",
   "lastOpenFiles": [
-    "JOURNAL.md.md~",
     "JOURNAL.md.md",
+    "JOURNAL.md",
+    "JOURNAL.md.md~",
     "Images/Pasted image 20251214130114.png",
     "PCB/~PCB.kicad_pcb.lck",
     "Images/Pasted image 20251214130033.png",
