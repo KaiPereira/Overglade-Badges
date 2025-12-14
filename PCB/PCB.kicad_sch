@@ -6114,16 +6114,6 @@
 		)
 		(uuid "8aaafc8e-f253-4f66-8b13-f68103990402")
 	)
-	(text "Inductor is fine at 1A...\nRight lol?"
-		(exclude_from_sim no)
-		(at 179.832 42.926 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "8f30ef28-74c6-47cc-9ec2-41b0e1097fae")
-	)
 	(text "Gate Drive Control"
 		(exclude_from_sim no)
 		(at 240.03 28.448 0)
