@@ -21,3 +21,8 @@ The PCB is a simple, 2 layer board with ground fills on each layer. I also CAD'e
 
 <img width="2560" height="1402" alt="image" src="https://github.com/user-attachments/assets/7781f4f4-66ac-485d-ba02-8e33d7d32074" />
 
+## Programming
+
+The board is going to have an embedded programmer and also a web interface for programming. This just functions as a backup so that you can always program the board properly!
+
+The code is accessible in the [/prgramming](/programming) folder! I stole this from [@mpkendall](https://github.com/mpkendall), but we might make a custom version too! 
