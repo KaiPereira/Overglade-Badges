@@ -18389,6 +18389,15 @@
 		(uuid "0cbe44b0-e536-4707-adaa-4222479b2150")
 	)
 	(via
+		(at 145 72)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "0e39d793-a602-4b03-a90a-e02d74c23056")
+	)
+	(via
 		(at 195.100149 28.100149)
 		(size 0.6)
 		(drill 0.3)
@@ -18671,6 +18680,15 @@
 		(uuid "49413a69-5c97-47a5-81be-6dc470847df4")
 	)
 	(via
+		(at 136 73)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "4b68c193-dd45-4659-9a30-bf7767e9bd40")
+	)
+	(via
 		(at 130 70)
 		(size 0.6)
 		(drill 0.3)
@@ -18731,7 +18749,7 @@
 		(uuid "5666ad73-9f93-4ce4-912c-8abd39c1f9a2")
 	)
 	(via
-		(at 131.675 61.65)
+		(at 132.425 62.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -18943,6 +18961,24 @@
 		(uuid "912fe776-b7cc-4301-8c62-d2cbd9a5fd13")
 	)
 	(via
+		(at 116.5 50)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "9af95a1a-fdd9-4fba-a3ca-723980cda117")
+	)
+	(via
+		(at 130.925 62.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "9d8d81b9-806c-4cd9-8faa-afc496d8d470")
+	)
+	(via
 		(at 182 70)
 		(size 0.6)
 		(drill 0.3)
@@ -19084,6 +19120,15 @@
 		(uuid "c0049c60-912d-4cee-9076-7c8e83062fe0")
 	)
 	(via
+		(at 155 46)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "c35e9986-8f30-472c-85d5-9adc156eca3f")
+	)
+	(via
 		(at 186.35 50.05)
 		(size 0.6)
 		(drill 0.3)
@@ -19144,6 +19189,15 @@
 		(uuid "d0eb702b-9a2f-4637-a421-79bee875e80c")
 	)
 	(via
+		(at 132.425 60.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "d33f3d8b-701b-46dd-9c41-9e38aac5970b")
+	)
+	(via
 		(at 155.5 58)
 		(size 0.6)
 		(drill 0.3)
@@ -19176,6 +19230,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "d9933d0e-b1c7-4a9b-9004-294f6a22e5f8")
+	)
+	(via
+		(at 130.925 60.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "dc149f8d-0cc5-48a3-aa96-9f9a0a09eee5")
 	)
 	(via
 		(at 143 49.9)
@@ -24755,7 +24818,6 @@
 		)
 		(filled_polygon
 			(layer "F.Cu")
-			(island)
 			(pts
 				(xy 136.318834 70.329361) (xy 136.374767 70.371233) (xy 136.399184 70.436697) (xy 136.3995 70.445543)
 				(xy 136.3995 75.535334) (xy 136.379815 75.602373) (xy 136.327011 75.648128) (xy 136.257853 75.658072)
