@@ -13,3 +13,11 @@ These are the (UNFINISHED) hackathon badges for Hackclub Overglade, a game jam w
 - RP2040 SoC with 4MB flash memory
 - Cool PCB and exposed copper art (TBD)
 
+## PCB Design
+
+The PCB is a simple, 2 layer board with ground fills on each layer. I also CAD'ed the shapes and art of the board to make sure everything was perfectly symmetrical!
+
+<img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/734cdccf-5653-47d2-85f2-d92385ca3819" />
+
+<img width="2560" height="1402" alt="image" src="https://github.com/user-attachments/assets/7781f4f4-66ac-485d-ba02-8e33d7d32074" />
+
