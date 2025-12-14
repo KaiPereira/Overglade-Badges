@@ -53663,7 +53663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA5020S"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR6028S"
 			(at 180.34 54.61 0)
 			(effects
 				(font
@@ -53690,7 +53690,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SWPA5020S680MT"
+		(property "MPN" "FNR6028S680MT"
 			(at 180.34 54.61 90)
 			(effects
 				(font
