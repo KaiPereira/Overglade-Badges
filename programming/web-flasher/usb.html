@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet">
+    <script src="/src/usb.ts" type="module"></script>
+    <title>USB Flasher</title>
+</head>
+
+<body class="bg-gray-700 flex flex-col min-h-screen">
+    <div class="flex flex-row items-center">
+        <button onclick="window.location.href='/'"
+            class="m-4 px-4 py-2 pt-1 rounded-lg bg-gray-800 text-white hover:bg-gray-600 transition cursor-pointer shadow-2xl/35">←</button>
+        <h1 class="flex-1 text-center text-white text-2xl font-semibold">WebSerial Flasher</h1>
+    </div>
+
+    <div class="grid grid-cols-3 gap-6 p-4 flex-1 text-white">
+        <div class="bg-stone-800 rounded-2xl flex-col justify-start flex p-4">
+            <h2 class="font-bold">badge connection</h2>
+            <button type="button"
+                class="mt-4 px-4 py-2 rounded-lg bg-green-700 text-white hover:bg-green-600 transition cursor-pointer shadow-2xl/35" id="connect-button">
+                Connect
+            </button>
+            <div id="connection-status" class="mt-3 flex items-center gap-2">
+                <span id="connection-dot" class="inline-block w-3 h-3 rounded-full bg-red-500"></span>
+                <span id="connection-text" class="text-sm">Disconnected</span>
+            </div>
+            <hr class="mt-4 mb-4">
+            <h2 class="font-bold">remote update</h2>
+            <button type="button"
+                class="mt-4 px-4 py-2 rounded-lg bg-blue-700 text-white hover:bg-blue-600 transition cursor-pointer shadow-2xl/35" id="update-button">
+                Check for Updates
+            </button>
+        </div>
+
+        <div class="bg-stone-800 rounded-2xl flex-col justify-start col-span-2 flex p-4">
+            <h2 class="font-bold">badge configuration</h2>
+            <div class="mt-4 grid grid-cols-2 gap-3">
+                <label class="text-sm">Name</label>
+                <input id="userName" name="userName" type="text" class="p-2 rounded bg-stone-900 text-white" />
+                <label class="text-sm">Slack handle</label>
+                <input id="userHandle" name="userHandle" type="text" class="p-2 rounded bg-stone-900 text-white" />
+                <label class="text-sm">Pronouns</label>
+                <input id="userPronouns" name="userPronouns" type="text" class="p-2 rounded bg-stone-900 text-white" />
+            </div>
+            <div class="flex gap-4 mt-4">
+                <button type="button" id="save-config" class="px-4 py-2 rounded-lg bg-amber-700 text-white hover:bg-amber-600">Save Configuration</button>
+                <button type="button" id="load-config" class="px-4 py-2 rounded-lg bg-gray-700 text-white hover:bg-gray-600">Load Configuration</button>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="mt-2">
+                <input id="firmware-input" type="file" accept=".zip,.uf2" class="hidden" />
+                <div class="mt-2 flex flex-col items-center">
+                    <button type="button" id="choose-firmware" class="px-4 py-2 rounded-lg bg-stone-900 text-white hover:bg-stone-800 border border-stone-700">Choose firmware</button>
+                    <span id="firmware-filename" class="text-sm mt-1 text-stone-300">No file chosen</span>
+                    <div class="mt-3 flex flex-wrap justify-center gap-3">
+                    <button type="button" id="load-firmware" class="px-4 py-2 rounded-lg bg-indigo-700 text-white hover:bg-indigo-600">Load Firmware</button>
+                    <button type="button" id="upload-firmware" class="px-4 py-2 rounded-lg bg-indigo-900 text-white hover:bg-indigo-800">Upload Firmware</button>
+                    <button type="button" id="wipe-badge" class="px-4 py-2 rounded-lg bg-red-700 text-white hover:bg-red-600">Wipe Badge</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help button -->
+    <button id="help-button" type="button" aria-haspopup="dialog" aria-expanded="false" class="fixed bottom-6 right-6 z-50 bg-indigo-700 hover:bg-indigo-600 text-white rounded-full p-3 shadow-lg cursor-pointer">?
+    </button>
+
+    <!-- Help modal -->
+    <div id="help-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-150">
+        <div id="help-overlay" class="absolute inset-0 bg-black/50 cursor-pointer"></div>
+        <div role="dialog" aria-modal="true" aria-labelledby="help-title" class="relative bg-stone-800 rounded-lg p-6 max-w-2xl w-11/12 text-white shadow-2xl max-h-[90vh] overflow-y-auto mx-auto">
+            <div class="flex justify-between items-start">
+                <h3 id="help-title" class="text-lg font-bold">Badge Flasher — Help</h3>
+                <button id="help-close" type="button" class="text-stone-300 hover:text-white cursor-pointer">✕</button>
+            </div>
+            <div class="mt-4 space-y-3 text-sm">
+                <p><strong>Connect</strong> — Opens a Web Serial connection to the RP2040 running MicroPython. Once connected the button toggles to "Disconnect." If the device is unplugged the UI will update automatically.</p>
+                <p><strong>Check for Updates</strong> — Downloads the latest firmware ZIP from the GitHub repo and stages it locally. It does not automatically write to the badge; you'll need to press "Upload Firmware" to install.</p>
+                <p><strong>Choose / Load Firmware</strong> — "Choose firmware" opens a file picker; "Load Firmware" parses a local firmware ZIP (.zip) or single file (.uf2/.bin) into the web app's staging area. Loading does NOT modify the badge; it simply prepares the package for upload.</p>
+                <p><strong>Upload Firmware</strong> — Sends files from the loaded firmware package to the badge via Web Serial. It creates folders if required and uploads files; the <code>/VERSION</code> file (if present) is uploaded last, to ensure devices apply updates correctly. Upload does NOT perform a wipe or factory reset — it will overwrite files with the same path but does not delete unrelated files.</p>
+                <p><strong>Save Configuration</strong> — Writes the values in the "Name", "Slack handle" and "Pronouns" fields to <code>/config.json</code> on the badge. This operation does not disconnect the badge. The uploaded configuration will be used by the badge software where appropriate.</p>
+                <p><strong>Load Configuration</strong> — Downloads <code>/config.json</code> from the badge (if it exists) and populates the form fields. It doesn't change other files.</p>
+                <p><strong>Wipe Badge</strong> — Attempts to delete files from the device file system. This is a destructive operation; use with caution. It does NOT re-flash the bootloader or change the device's MicroPython firmware mode.</p>
+                <p><strong>Limits / Notes</strong> — UF2-style flashing (device appears as a mass-storage device) cannot be performed via Web Serial. Upload via Web Serial writes files while the MicroPython firmware is running. If you need to re-flash the UF2, use the device USB boot mode and copy the UF2 file using the OS file manager.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

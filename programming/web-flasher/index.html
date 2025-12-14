@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/src/style.css" rel="stylesheet">
+  <title>Prototype Badge Flasher</title>
+</head>
+
+<body class="bg-gray-700">
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="flex gap-10">
+      <button onclick="window.location.href='/flash'" class="w-40 md:w-56 h-60 px-8 py-4 text-lg rounded-xl bg-indigo-950 text-white hover:bg-indigo-900 transition
+               flex flex-col items-center justify-between cursor-pointer shadow-2xl/35">
+        <img src="photodiode-alt.svg" alt="" class="h-40 rotate-270 invert">
+        <span class="text-white font-medium">Photodiode</span>
+      </button>
+
+      <button onclick="window.location.href='/usb'" class="w-40 md:w-56 h-60 px-8 py-4 text-lg rounded-xl bg-indigo-950 text-white hover:bg-indigo-900 transition
+               flex flex-col items-center justify-between cursor-pointer shadow-2xl/35">
+        <img src="USB_icon.svg" alt="" class="h-40 rotate-270 invert">
+        <span class="text-white">WebSerial</span>
+      </button>
+    </div>
+  </div>
+
+</body>
+
+</html>
