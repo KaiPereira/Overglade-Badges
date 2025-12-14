@@ -6343,6 +6343,12 @@
 		(uuid "34279df1-088f-4c07-9d26-5fae61c43c6c")
 	)
 	(junction
+		(at 375.92 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5974bcf7-860a-47b9-853f-770163c00897")
+	)
+	(junction
 		(at 147.32 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6473,6 +6479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a22ee93c-8e13-4c0e-82e2-499d6025a6d5")
+	)
+	(junction
+		(at 375.92 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3866194-2d14-407f-a165-66f10fb9cf17")
 	)
 	(junction
 		(at 233.68 80.01)
@@ -9166,6 +9178,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 74.93) (xy 382.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bd0af3-96be-40de-8464-7b48dd9d5a2f")
+	)
+	(wire
+		(pts
 			(xy 233.68 44.45) (xy 233.68 46.99)
 		)
 		(stroke
@@ -9293,6 +9315,16 @@
 			(type default)
 		)
 		(uuid "cfc96de3-b1fd-4aec-949e-7b78c68d3483")
+	)
+	(wire
+		(pts
+			(xy 375.92 67.31) (xy 382.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d5d02f-7fb8-4ca7-a78e-0104ebb91505")
 	)
 	(wire
 		(pts
@@ -48554,7 +48586,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 375.92 71.12 0)
+		(at 382.27 71.12 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -48563,7 +48595,7 @@
 		(dnp no)
 		(uuid "2c34c158-c209-4980-817b-9b9a25b61047")
 		(property "Reference" "L1"
-			(at 377.444 72.39 0)
+			(at 383.794 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48572,7 +48604,7 @@
 			)
 		)
 		(property "Value" "NFC Antenna"
-			(at 377.444 69.85 0)
+			(at 383.794 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48581,7 +48613,7 @@
 			)
 		)
 		(property "Footprint" "nfc:25x35mm-NFC"
-			(at 375.92 71.12 0)
+			(at 382.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48590,7 +48622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 375.92 71.12 0)
+			(at 382.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48599,7 +48631,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 375.92 71.12 0)
+			(at 382.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52934,6 +52966,73 @@
 			(project "PCB"
 				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 375.92 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca48db02-eab8-45d1-8c53-61842d118f62")
+		(property "Reference" "C30"
+			(at 373.38 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33pF"
+			(at 378.968 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 374.9548 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 375.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c679a40-5937-4184-9bc4-91a86e4bffa7")
+		)
+		(pin "2"
+			(uuid "edc2f526-2ff2-406a-97aa-e48b919ec506")
+		)
+		(instances
+			(project "PCB"
+				(path "/f82e74e4-6971-48c6-8666-d0a9e9f61139"
+					(reference "C30")
 					(unit 1)
 				)
 			)
