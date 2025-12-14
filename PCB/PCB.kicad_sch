@@ -53554,7 +53554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA252010S"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA5020S"
 			(at 180.34 54.61 0)
 			(effects
 				(font
@@ -53581,7 +53581,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SWPA6045S680MT"
+		(property "MPN" "SWPA5020S680MT"
 			(at 180.34 54.61 90)
 			(effects
 				(font
