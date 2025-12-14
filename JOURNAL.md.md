@@ -10,7 +10,7 @@ This is a retroactive journal of how I made the Overglade PCB's, I absolutely lo
 
 The first part of the PCB is the power.
 
-![[Pasted image 20251214124754.png]]
+![Pasted image 20251214124754.png](images/Pasted%20image%2020251214124754.png)
 
 I decided to use USB-C because it's the most common cable these days and has really good power, and data. I use the NCP1117 fixed LDO to power 3V3 because it's very good, and can step down 1A which is the max draw of my board.
 
@@ -18,19 +18,19 @@ I added ESD protection because lots of people are writing and messing with their
 
 The next part of the PCB is the MCU. I decided on RP2040, because it's insanely easy to program, cheap and is just really fast to get working!
 
-![[Pasted image 20251214124941.png]]
+![Pasted image 20251214124941.png](images/Pasted%20image%2020251214124941.png)
 
 This is a really simple RP2040 implementation. It's just one cap per VDD pin, and then a bulk cap for each line.
 
 I added a power LED to show that power is actually getting to the board, and a BOOT and RESET button for programming. There's an external crystal for the USB-C timing, and then I strategically wired the GPIO's for the easiest routing to the pin headers.
 
-![[Pasted image 20251214125103.png]]
+![Pasted image 20251214125103.png](images/Pasted%20image%2020251214125103.png)
 
 The pin headers is near standard with the RP2040, but it is smaller. I didn't put too much thought into it, but just wanted to break out everything to be accessible and useful to the user.
 
 Next, I needed to have an e-ink on the board.
 
-![[Pasted image 20251214125147.png]]
+![Pasted image 20251214125147.png](images/Pasted%20image%2020251214125147.png)
 This PCB should work with absolutely no power, so that's why I decided on an e-ink because it's a passive display and doesn't actively need power. I copied the waveshare reference schematic for this part, but I understand the e-ink at a fair level.
 
 There's decoupling on all the lines that are driving power to the e-ink:
@@ -43,7 +43,7 @@ There's an inductor to help with the internal DC-DC boost converter inside of th
 
 Finally, we have the NFC tag:
 
-![[Pasted image 20251214125752.png]]
+![Pasted image 20251214125752.png](images/Pasted%20image%2020251214125752.png)
 
 The IC is called the tag, and then the inductor symbol is where the antenna is. It works passively by harvesting the energy from the magnetic fields on your phone, but I decided to also implement active NFC so I wired the I2C and the other control pins so that people can customize it even further.
 
@@ -51,11 +51,11 @@ You'll notice the load cap on the antenna, this is the same one as the crystal t
 
 And just like that, we have our entire schematic!
 
-![[Pasted image 20251214130033.png]]
+![Pasted image 20251214130033.png](images/Pasted%20image%2020251214130033.png)
 
 Now, let's get onto the PCB!
 
-![[Pasted image 20251214130114.png]]
+![Pasted image 20251214130114.png](images/Pasted%20image%2020251214130114.png)
 
 I'll just give a brief overview of the main logic, but essentially, it's in the shape of a ticket, which was a sticker I liked that Kai Ling made, so I wanted to follow that idea because I think it would be really cool.
 
