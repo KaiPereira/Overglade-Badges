@@ -1,4 +1,4 @@
-26302414449388934
+26320080468762937
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60703,6 +60703,27 @@ GDT 3R-6
 0
 3
 3
+Hackclub Footprints
+MX_SK6812MINI-E_REV
+Add-on for regular MX-footprints with SK6812 MINI-E
+cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
+0
+4
+4
+Hackclub Footprints
+OLED_0.91_128x32
+SSD1306 OLED module, 0.91 inch, 128x32, I2C (https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf)
+EastRising
+0
+4
+4
+Hackclub Footprints
+XIAO-RP2040-DIP
+
+
+0
+28
+14
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -68823,6 +68844,34 @@ Yellow 5381 Series LED
 0
 2
 2
+M.2 Library
+M.2-B+M-KEY
+
+
+0
+60
+60
+M.2 Library
+M.2-B-KEY
+
+
+0
+68
+68
+M.2 Library
+M.2-B-KEY-2280-ADAPTER
+
+
+0
+69
+69
+M.2 Library
+M.2-KEY-BLANK
+
+
+0
+76
+76
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -104265,12 +104314,33 @@ IND-SMD_L5.0-W5.0_FNR50XXS
 2
 2
 easyeda2kicad
+QFN-28_L5.0-W5.0-P0.50-TL-EP3.2
+
+
+0
+29
+29
+easyeda2kicad
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.5
+
+
+0
+33
+33
+easyeda2kicad
 QFN40P300X300X100-21N
 
 
 0
 21
 21
+easyeda2kicad
+RILTER-SMD_0805-10P-L2.0-W1.3-P0.50-BL
+
+
+0
+10
+10
 easyeda2kicad
 WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7
 
