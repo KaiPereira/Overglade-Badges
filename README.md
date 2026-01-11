@@ -1,6 +1,9 @@
 # Overglade Hackathon Badges
 
-<img width="1904" height="1095" alt="image" src="https://github.com/user-attachments/assets/3af2cdbc-e8b5-470a-a43d-b1a9fe20f0e1" />
+<img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/6994a2e5-22f4-446f-9456-5f8738ce2202" />
+
+<img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/a625fa2b-5c37-43a8-b935-c30a519a3aa5" />
+
 
 These are the (UNFINISHED) hackathon badges for Hackclub Overglade, a game jam within a game that's going to be happening in Singapore! They function as devboards, but also as badges with NFC tap, and e-inks!
 
@@ -19,7 +22,7 @@ The PCB is a simple, 2 layer board with ground fills on each layer. I also CAD'e
 
 <img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/734cdccf-5653-47d2-85f2-d92385ca3819" />
 
-<img width="2560" height="1402" alt="image" src="https://github.com/user-attachments/assets/7781f4f4-66ac-485d-ba02-8e33d7d32074" />
+<img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/5806ac54-13aa-48d3-b724-f143bebe1431" />
 
 ## Programming
 
