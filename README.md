@@ -1,11 +1,12 @@
 # Overglade Hackathon Badges
 
+These are the hackathon badges for Hackclub Overglade, a game jam within a game that's going to be happening in Singapore! They function as devboards, but also as badges with NFC tap, and e-inks!
+
+<img src="https://user-cdn.hackclub-assets.com/019ceadc-cb03-70f9-9142-18adf5558190/1000017658.jpg" />
+
 <img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/6994a2e5-22f4-446f-9456-5f8738ce2202" />
 
 <img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/a625fa2b-5c37-43a8-b935-c30a519a3aa5" />
-
-
-These are the (UNFINISHED) hackathon badges for Hackclub Overglade, a game jam within a game that's going to be happening in Singapore! They function as devboards, but also as badges with NFC tap, and e-inks!
 
 ## Custom Features
 - Passive NFC tap for whatever your heart desires
