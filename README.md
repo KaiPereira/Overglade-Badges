@@ -26,7 +26,20 @@ The PCB is a simple, 2 layer board with ground fills on each layer. I also CAD'e
 
 ## Programming and Setup
 
-The board is really easy to setup! Just plug it into your computer via USB-C, drop in the [Pi Pico micropython bootloader](https://micropython.org/download/RPI_PICO2/) and then upload the code using Thonny to the devboard! 
+The board is really easy to setup! Just plug it into your computer via USB-C, drop in the [Pi Pico micropython bootloader](https://micropython.org/download/RPI_PICO2/) and then upload the [firmware](/firmware) using Thonny to the devboard! 
 
 You can modify the `config.json` to add your own personal details, and change the images by replacing the bitmaps (I like to use [Magick](https://imagemagick.org/#gsc.tab=0) for this)!
 
+## Ordering the PCB's
+
+The boards are really easy to get manufactured if you'd like to have some of your own! They're much cheaper to order in bulk, at about less than $5/board and another $5 for the e-ink, but getting at MOQ will cost about $100 for 5 with PCBA (hand soldering is probably significantly cheaper though). 
+
+I used JLC to PCBA my boards, you can just drag and drop the `gerbers.zip`, and then use the JLC BOM and designators/CPL all in the [productions folder](/PCB/production). Some of the part orientations might be off, so make sure you correct those! 
+
+## Contributions
+
+These were badges for the [overglade hackathon](https://overglade.hackclub.com/) in singapore, a HackClub event for highschoolers! 
+
+Thanks to the whole overglade team for their hard work in putting the event together, and thanks to @nimitvijayvargee and @mpkendall for helping with firmware - @joysudo, @froppii and @mynameisashllee for helping with the art!
+
+Keep on hacking o7
