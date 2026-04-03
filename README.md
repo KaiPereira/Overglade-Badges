@@ -1,12 +1,11 @@
 # Overglade Hackathon Badges
 
-These are the hackathon badges for Hackclub Overglade, a game jam within a game that's going to be happening in Singapore! They function as devboards, but also as badges with NFC tap, and e-inks!
+These are zero-power hackathon badges I designed for the overglade hackathon in singapore! They're powered by the RP2040 and have passive NFC and an onboard e-ink driver! 
 
-<img src="https://user-cdn.hackclub-assets.com/019ceadc-cb03-70f9-9142-18adf5558190/1000017658.jpg" />
+<img width="1333" height="1000" alt="image 3" src="https://github.com/user-attachments/assets/31bc2249-8f35-4ed4-b9d6-c4fc2e519038" />
 
-<img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/6994a2e5-22f4-446f-9456-5f8738ce2202" />
+<img width="1333" height="1000" alt="image 2" src="https://github.com/user-attachments/assets/47a4892c-bcd6-4e2c-aa83-acc790376328" />
 
-<img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/a625fa2b-5c37-43a8-b935-c30a519a3aa5" />
 
 ## Custom Features
 - Passive NFC tap for whatever your heart desires
@@ -15,7 +14,7 @@ These are the hackathon badges for Hackclub Overglade, a game jam within a game 
 - Active NFC mode if you want to do some more complicated stuff
 - Zero power, the board needs no power for it's core features
 - RP2040 SoC with 4MB flash memory
-- Cool PCB and exposed copper art (TBD)
+- Cool PCB and exposed copper art
 
 ## PCB Design
 
@@ -25,8 +24,22 @@ The PCB is a simple, 2 layer board with ground fills on each layer. I also CAD'e
 
 <img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/5806ac54-13aa-48d3-b724-f143bebe1431" />
 
-## Programming
+## Programming and Setup
 
-The board is going to have an embedded programmer and also a web interface for programming. This just functions as a backup so that you can always program the board properly!
+The board is really easy to setup! Just plug it into your computer via USB-C, drop in the [Pi Pico micropython bootloader](https://micropython.org/download/RPI_PICO2/) and then upload the [firmware](/firmware) using Thonny to the devboard! 
 
-The code is accessible in the [/programming](/programming) folder! I stole this from [@mpkendall](https://github.com/mpkendall), but we might make a custom version too! 
+You can modify the `config.json` to add your own personal details, and change the images by replacing the bitmaps (I like to use [Magick](https://imagemagick.org/#gsc.tab=0) for this)!
+
+## Ordering the PCB's
+
+The boards are really easy to get manufactured if you'd like to have some of your own! They're much cheaper to order in bulk, at about less than $5/board and another $5 for the e-ink, but getting at MOQ will cost about $100 for 5 with PCBA (hand soldering is probably significantly cheaper though). 
+
+I used JLC to PCBA my boards, you can just drag and drop the `gerbers.zip`, and then use the JLC BOM and designators/CPL all in the [productions folder](/PCB/production). Some of the part orientations might be off, so make sure you correct those! 
+
+## Contributions
+
+These were badges for the [overglade hackathon](https://overglade.hackclub.com/) in singapore, a HackClub event for highschoolers! 
+
+Thanks to the whole overglade team for their hard work in putting the event together, and thanks to @nimitvijayvargee and @mpkendall for helping with firmware - @joysudo, @froppii and @mynameisashllee for helping with the art!
+
+Keep on hacking o7
