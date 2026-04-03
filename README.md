@@ -1,6 +1,6 @@
 # Overglade Hackathon Badges
 
-These are zero-power hackathon badges I designed for a hackathon in singapore! They're powered by the RP2040 and have passive NFC and an onboard e-ink driver! 
+These are zero-power hackathon badges I designed for the overglade hackathon in singapore! They're powered by the RP2040 and have passive NFC and an onboard e-ink driver! 
 
 <img width="1333" height="1000" alt="image 3" src="https://github.com/user-attachments/assets/31bc2249-8f35-4ed4-b9d6-c4fc2e519038" />
 
