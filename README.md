@@ -12,7 +12,7 @@ These are zero-power hackathon badges I designed for the overglade hackathon in 
 - E-ink support so that you don't need any battery
 - 20 GPIO's broken out onto header pins for programming
 - Active NFC mode if you want to do some more complicated stuff
-- Zero power, the board needs no power for it's core features
+- Zero power, the board needs no power for its core features
 - RP2040 SoC with 4MB flash memory
 - Cool PCB and exposed copper art
 
