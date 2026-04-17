@@ -2,9 +2,9 @@
 
 These are zero-power hackathon badges I designed for the overglade hackathon in singapore! They're powered by the RP2040 and have passive NFC and an onboard e-ink driver! 
 
-<img width="1333" height="1000" alt="image 3" src="https://github.com/user-attachments/assets/31bc2249-8f35-4ed4-b9d6-c4fc2e519038" />
+<img max-width="1333" max-height="1000" alt="image 3" src="https://github.com/user-attachments/assets/31bc2249-8f35-4ed4-b9d6-c4fc2e519038" />
 
-<img width="1333" height="1000" alt="image 2" src="https://github.com/user-attachments/assets/47a4892c-bcd6-4e2c-aa83-acc790376328" />
+<img max-width="1333" max-height="1000" alt="image 2" src="https://github.com/user-attachments/assets/47a4892c-bcd6-4e2c-aa83-acc790376328" />
 
 
 ## Custom Features
@@ -20,9 +20,9 @@ These are zero-power hackathon badges I designed for the overglade hackathon in 
 
 The PCB is a simple, 2 layer board with ground fills on each layer. I also CAD'ed the shapes and art of the board to make sure everything was perfectly symmetrical!
 
-<img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/734cdccf-5653-47d2-85f2-d92385ca3819" />
+<img max-width="2560" max-height="1405" alt="image" src="https://github.com/user-attachments/assets/734cdccf-5653-47d2-85f2-d92385ca3819" />
 
-<img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/5806ac54-13aa-48d3-b724-f143bebe1431" />
+<img max-width="2560" max-height="1405" alt="image" src="https://github.com/user-attachments/assets/5806ac54-13aa-48d3-b724-f143bebe1431" />
 
 ## Programming and Setup
 
