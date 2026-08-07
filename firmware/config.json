@@ -1,6 +1,8 @@
 {
-  "userName": "Kai Pereira",
-  "userHandle": "KaiPereira",
-  "userPronouns": "He/Him",
-  "other" : "Hacker"
+  "userName": "NPC",
+  "userHandle": "none",
+  "userPronouns": "N/A",
+  "isStaff" : 1,
+  "partyNumber": 0,
+  "nameScale": 2
 }

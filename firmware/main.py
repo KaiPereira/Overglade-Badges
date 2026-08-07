@@ -19,7 +19,8 @@ badge_data = {
     "name": None,
     "pronouns": None,
     "slack_handle": None,
-    "other": None
+    "scale": None,
+    "party_number": None,
 }
 # Is Staff configures the badge to show "Staff" since staff were not part of a party during the event.
 is_staff = False
@@ -32,8 +33,9 @@ try:
         badge_data["name"] = config.get("userName")
         badge_data["pronouns"] = config.get("userPronouns")
         badge_data["slack_handle"] = config.get("userHandle")
-        badge_data["other"] = config.get("other")
-
+        badge_data["party_number"] = config.get("partyNumber")
+        badge_data["scale"] = config.get("nameScale")
+        is_staff = config.get("isStaff")
         configured = all(v is not None for v in badge_data.values())
 except Exception as e:
     print("Config error:", e)
@@ -46,27 +48,33 @@ This only supports bitmaps of 1b depth.
 Use Magick or similar tool to construct a valid bitmap.
 """
 
-def bmp_to_framebuf_at(path, fb, x0, y0, max_w=80, max_h=80, invert=False):
+def bmp_to_framebuf_at(path, fb, x0, y0, max_w=80, max_h=80):
     with open(path, "rb") as f:
         if f.read(2) != b"BM":
             raise ValueError("Not a BMP")
+
         f.seek(10)
         data_offset = struct.unpack("<I", f.read(4))[0]
+
         f.seek(18)
         w, h = struct.unpack("<ii", f.read(8))
         h = abs(h)
+
         f.seek(28)
         bpp = struct.unpack("<H", f.read(2))[0]
         if bpp not in (1, 24):
             raise ValueError("Unsupported BMP depth")
+
         f.seek(data_offset)
         row_bytes = ((w * bpp + 31) // 32) * 4
+
         draw_w = min(w, max_w)
         draw_h = min(h, max_h)
 
         for y in range(draw_h):
             row = f.read(row_bytes)
             py = h - 1 - y  # BMP bottom-up
+
             for x in range(draw_w):
                 if bpp == 1:
                     bit = row[x >> 3] & (0x80 >> (x & 7))
@@ -74,9 +82,6 @@ def bmp_to_framebuf_at(path, fb, x0, y0, max_w=80, max_h=80, invert=False):
                 else:
                     b, g, r = row[x * 3 : x * 3 + 3]
                     color = 0 if (r + g + b) > 384 else 1
-
-                if invert:
-                    color = 1 - color  # invert in code
 
                 fb.pixel(x0 + x, y0 + py, color)
 
@@ -96,16 +101,18 @@ epd.image_Landscape.fill(0xFF)
 # Thanks froppii for the overglade.bmp design :)
 bmp_to_framebuf_at("overglade.bmp", epd.image_Landscape, 0, 0, 296, 152)
 # image.bmp (80x80), loaded via badge tool into the badge. Must be 1b depth.
-bmp_to_framebuf_at("image1.bmp", epd.image_Landscape, 15, 25, 80, 80, invert=True)
+bmp_to_framebuf_at("image.bmp", epd.image_Landscape, 15, 25, 80, 80)
 
-# All the text configurations
 if configured:
     epd.image_Landscape.rect(10, 20, 90, 90, 0x00)
-    
-    epd.text_scaled(badge_data["name"], 105, 40, 2, 0x00)
-    epd.text_scaled(badge_data["other"], 105, 64, 2, 0x00)
-    epd.text_scaled("(" + badge_data["pronouns"] + ")", 105, 100, 1, 0x00)
-    epd.text_scaled("@" + badge_data["slack_handle"], 105, 108, 1, 0x00)
+    epd.text_scaled(badge_data["name"], 105, 40, badge_data["scale"], 0x00)
+    if not is_staff:
+        epd.text_scaled("Party " + str(badge_data["party_number"]), 105, 64, 2, 0x00)
+    else:
+        epd.text_scaled("Staff", 105, 64, 2, 0x00)
+
+    epd.text_scaled("(" + badge_data["pronouns"] + ")", 105, 112, 1, 0x00)
+    epd.text_scaled("@" + badge_data["slack_handle"], 105, 120, 1, 0x00)
 
 # Fallback
 else:
