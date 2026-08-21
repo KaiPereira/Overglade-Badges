@@ -26,7 +26,7 @@ The PCB is a simple, 2 layer board with ground fills on each layer. I also CAD'e
 
 ## Programming and Setup
 
-The board is really easy to setup! Just plug it into your computer via USB-C, drop in the [Pi Pico micropython bootloader](https://micropython.org/download/RPI_PICO2/) and then upload the [firmware](/firmware) using Thonny to the devboard! 
+The board is really easy to setup! Just plug it into your computer via USB-C, drop in the [Pi Pico micropython bootloader](https://micropython.org/download/RPI_PICO/) and then upload the [firmware](/firmware) using Thonny to the devboard! 
 
 You can modify the `config.json` to add your own personal details, and change the images by replacing the bitmaps (I like to use [Magick](https://imagemagick.org/#gsc.tab=0) for this)!
 
